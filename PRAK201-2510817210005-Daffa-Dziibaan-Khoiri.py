@@ -1,0 +1,18 @@
+print("\nInput\n")
+ 
+nama = str(input("Nama                 : "))
+nim = str(input("NIM                  : "))
+paralel = str(input("Kelas Paralel        : "))
+tempat_tanggal_lahir = str(input("Tempat/Tanggal Lahir : "))
+alamat = str(input("Alamat               : "))
+hobi = str(input("Hobby                : "))
+hp = str(input("No. Hp               : "))
+
+print("\nOutput\n")
+print(f"Nama                 : {nama}")
+print(f"NIM                  : {nim}")
+print(f"Kelas Paralel        : {paralel}")
+print(f"Tempat/Tanggal Lahir : {tempat_tanggal_lahir}")
+print(f"Alamat               : {alamat}")
+print(f"Hobby                : {hobi}")
+print(f"No. Hp               : {hp}")
